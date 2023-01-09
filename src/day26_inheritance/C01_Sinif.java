@@ -1,15 +1,11 @@
 package day26_inheritance;
 
 
-
-
-
  class Okul{
      String okulIsmi="Yildiz Koleji";
      String telefon="3123456543";
 
 }
-
 
 
 public class C01_Sinif extends Okul {

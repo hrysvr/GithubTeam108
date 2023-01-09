@@ -18,6 +18,17 @@ public class N01_Iterator {
 
         System.out.println(sayilar); // [5, 23, 2, 9, 11]
 
+        // index yapisi kullanmadan tum elementleri 3 artirin
+
+        for (Integer each:sayilar
+        ) {
+            each= each+3;
+            System.out.print(each + " ");
+        }
+
+        System.out.println("");
+        System.out.println(sayilar);
+
         // index yapisini kullanmadan tum elementleri yazdirin
 
         Iterator itr= sayilar.iterator();

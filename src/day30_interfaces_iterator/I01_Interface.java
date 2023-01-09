@@ -7,7 +7,7 @@ public interface I01_Interface {
     // final oldugundan sonradan deger atamak mumkun olmaz, olustururken deger ATANMALIDIR.
 
     int SAYI= 10;
-    public static final String okulIsmi ="Yildiz Koleji";
+    public static final String OKUL_ISMI ="Yildiz Koleji";
     public int SAYI2= 20;
 
     void method1();
