@@ -1,4 +1,4 @@
-package day3_dataCasting_MatematikselIslemler;
+package day03_dataCasting_MatematikselIslemler;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package day3_dataCasting_MatematikselIslemler;
+package day03_dataCasting_MatematikselIslemler;
 
 public class C02_ExplicitNarrowing {
         public static void main(String[] args) {
