@@ -8,11 +8,12 @@ public class C02_Contains {
         String str = "Java ogren mutlu ol";
 
         // str mutlu iceriyor mu ?
-        System.out.println(str.contains("mutlu"));
+        System.out.println(str.contains("mutlu")); // true
 
         // charSequence : char dizisi
 
         System.out.println(str.contains("j")); //false
+        // System.out.println(str.contains('j')); contains char kabul etmiyor, char dizisi kabul ediyor
         System.out.println(str.contains(" ")); //true
 
         // contains method'u kac tane olduguna degil,

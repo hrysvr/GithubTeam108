@@ -16,7 +16,7 @@ public class C10_ForLoop {
         int sayac = 0;
         int toplam = 0;
 
-        for (int i = 34; i <=563; i+=7) {
+        for (int i = inputBas; i <=inputBit; i+=7) {
 
             System.out.println(i + " ");
             sayac++;

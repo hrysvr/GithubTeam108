@@ -31,6 +31,5 @@ public class C06_indexOf {
             System.out.println(girilenCumle.substring(cokIndexi, boslukIndexi));
 
         }
-
     }
 }

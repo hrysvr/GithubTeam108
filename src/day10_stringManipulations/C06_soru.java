@@ -21,7 +21,7 @@ public class C06_soru {
 
           - Eger if-else ile yaparsak ilk hatada hatayi yazdirir
           geriye kalanlara bakmaz
-          avantaji ise eger hata yoksa otomatik olarak basarili sekilde oluturuldu diyebilir
+          avantaji ise eger hata yoksa otomatik olarak basarili sekilde olusturuldu diyebilir
 
           - Bagimsiz if cumlelerinde tum hatalari bir kerede soyleyebiliriz
           ancak bagimsiz if cumleleri kodun geriye kalani ile ilgilenmediginden
@@ -65,6 +65,9 @@ public class C06_soru {
                 flag++;
             }
 
-        System.out.println(flag);
+           if (flag==0){
+               System.out.println("sifre basariyla kaydedildi");
+           }
+
     }
 }

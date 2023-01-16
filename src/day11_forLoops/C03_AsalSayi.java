@@ -7,8 +7,6 @@ public class C03_AsalSayi {
         // input olarak verilen bir tamsayinin
         // asal sayi olup olmadigini yazdirin
 
-
-
         int input = 17;
         String sonuc = "Sayi asal";
 

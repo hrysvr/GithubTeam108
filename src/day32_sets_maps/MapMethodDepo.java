@@ -344,9 +344,18 @@ public class MapMethodDepo {
         System.out.println("isim soyisim no sinif sube bolum");
         System.out.println("=================================");
         for (String each : isimSoyisimSiraliSet) {
-            System.out.println(each);
+            // System.out.println(each); // Ali  Can  101  11  H  MF
+
+            String[] duzenliYazdirArr=each.split(" ");
+
+            String isim = duzenliYazdirArr[0];
+            String soyisim = duzenliYazdirArr[1];
+            String no = duzenliYazdirArr[2];
+            String sinif = duzenliYazdirArr[3];
+            String sube = duzenliYazdirArr[4];
+            String bolum = duzenliYazdirArr[5];
+
+            System.out.printf("%-6.6s %-6S %3s  %2s    %s    %s%n",isim, soyisim, no, sinif, sube, bolum);
         }
-
-
     }
 }

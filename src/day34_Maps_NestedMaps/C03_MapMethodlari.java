@@ -41,6 +41,6 @@ public class C03_MapMethodlari {
         System.out.println(ogrenciMap.get(103)); // Ali-Han-12-K-MF
 
 
-        // kontrol eder, eski value verilen deger ile ayni ise degistirir, yoksa degistirmez
+        // kontrol eder, eski value olarak verilen deger dogruysa yeni value'yu atar, yoksa degistirmez
     }
 }

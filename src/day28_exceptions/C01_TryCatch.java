@@ -26,12 +26,11 @@ public class C01_TryCatch {
         {
             System.out.println("Bolecek sayi 0 olamaz");
             e.printStackTrace();
+            throw new RuntimeException(e);
             // 3-catch blogu : exception gerceklesirse calismasini istedigimiz kodlar
             //                 burayi yazarken oncelikle
             //                 exception olustugunda kodlarin calismasi dursun mu ?
             //                 yoksa devam mi etsin karar vermeliyiz
         }
-
-
     }
 }

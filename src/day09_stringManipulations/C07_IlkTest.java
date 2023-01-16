@@ -20,7 +20,7 @@ public class C07_IlkTest {
         // arama sonuc sayisinin 50'den fazla oldugunu test edin
         int sonucSayisiInt = Integer.parseInt(sonucSayisiString);
         // Her zaman String'den sayisal bir veriyi Integer'a cevirmek isterseniz
-        // parseINt veya Valuof kullaniriz
+        // parseInt veya Valuof kullaniriz
 
         if (sonucSayisiInt>50){
             System.out.println("Nutella arama testi PASSED");
